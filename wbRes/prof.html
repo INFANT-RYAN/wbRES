@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="shortcut icon" href="src/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="prof.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Py Kid</div>
+        <button class="menu-toggle">☰</button>
+        <ul class="nav-links">
+            <li><a href="index.html">Profile</a></li>
+            <li><a href="prof.html">Activities</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>Education</h2>
+        <div class="card">
+            <h4>St. Joseph's College(Autonomous) - Tiruchirappalli</h4>
+            <p>Bachelor's degree, computer science<br> Jun 2022-May 2025 <br> Activities and societies: NCC (AIRWING) </p>
+        </div>
+        <div class="card">
+            <h4>St. Marrys Hr. Sec. School - Dindigul</h4>
+            <p>Completed my schooling in SMHSS <br> and secured 96 marks in Computer Science <br> Activities and societies: NCC (Infantry) </p>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Projects</h2>
+        <div class="product">
+            <img src="src/p1.webp" alt="Product Image">
+            <h3>Home Automation</h3>
+            <p><strong>Description:</strong> Bluetooth-Controlled Home Automation Create a system to control home appliances remotely via Bluetooth. It will use a Bluetooth module, microcontroller, and a mobile app for control. Features include remote control and security integration. Goals are convenience, energy efficiency, and easy expansion.</p>
+        </div>
+    </div>
+    <div class="container">
+        <h2>Certificates</h2>
+        <div class="card">
+            <h4>Introduction to Programming Using Python</h4>
+            <p>GUVI Geek Networks, IITM Research Park <br> Skills: Python (Programming Language)</p>
+            <h4>AI for India</h4>
+            <p>GUVI Geek Networks, IITM Research Park <br> Skills: Python (Programming Language) </p>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <p><strong>Contact </strong> <br> Email: ini0k17@gmail.com<br> Phone: +91 8903369700 <br> &copy; 2024 MyWebsite. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
