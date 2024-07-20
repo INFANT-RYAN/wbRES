@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="shortcut icon" href="src/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Py Kid</div>
+        <button class="menu-toggle">☰</button>
+        <ul class="nav-links">
+            <li><a href="index.html">Profile</a></li>
+            <li><a href="prof.html">Activities</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h2>About Myself</h2>
+        <div class="about">
+            <p>I'm Infant Ryan J., a final-year Computer Science student at St. Joseph's College (Autonomous) with experience in software development, data structures, and algorithms. I’ve worked on projects like Home Automation and interned at Tamil Info Technology, seeking opportunities to contribute to innovative tech solutions.</p>
+        </div>
+        <div class="form-container">
+            <h2 id="contact">Contact Us</h2>
+            <div class="about">
+                <p>For more info on getting started, please contact us.</p>
+            </div>
+            <form>
+                <div class="form-group">
+                    <input type="text" placeholder="Name">
+                    <input type="tel" placeholder="Ph. no.">
+                    <input type="email" placeholder="Email">
+                </div>
+                <textarea name="msg" id="msg" placeholder="Message"></textarea><br>
+                <button type="submit"><strong>Send Message</strong></button>
+            </form>
+        </div>
+    </div>
+    <footer class="footer" id="footer">
+        <div class="footer-container">
+            <p><strong>Contact</strong><br>
+            Email: ini0k17@gmail.com<br>
+            Phone: +91 8903369700<br>
+            &copy; 2024 MyWebsite. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle');
+        const navLinks = document.querySelector('.nav-links');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
